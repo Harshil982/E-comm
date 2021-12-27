@@ -1,0 +1,35 @@
+.Product-categories
+{
+    margin: 9vh 8vw;
+}
+.menu
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.select-menu
+{
+    padding: 1.4vh 2vw 1.4vh 1.7vw;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    background-color: rgba(255, 228, 196, 0);
+    font-size: 1vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.select-menu:focus
+{
+    border-radius: 0px;
+    box-shadow: 0px 0px 25px gray;
+}
+
+.menu .select-menu option
+{
+    background-color: rgba(255, 0, 0, 0);
+    transition: all 2s;
+}
+.menu .select-menu option:hover
+{
+    background-color: gray;
+}

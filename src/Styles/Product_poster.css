@@ -1,0 +1,164 @@
+.Product-poster
+{
+    background-color: #ffffff00;
+    position: relative;
+}
+
+.Product-poster .product-poster-content
+{
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    color: #547665;
+}
+.Product-poster .product-poster-content h4
+{
+    width: 45px;
+    text-align: center;
+    background-color: white;
+    padding: 4px;
+    border-radius: 2px;
+}
+.Product-poster .product-poster-content h1
+{
+    width: 28%;
+    font-size: 3.1vw;
+    margin: 3px;
+}
+.Product-poster .product-poster-content p
+{
+    width: 40%;
+    font-size: 1.2vw;
+}
+
+/* .Product-poster img
+{
+    /* display: flex;
+    justify-content: flex-end; 
+} */
+
+.Product-poster .Products-label-container
+{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.Product-poster .Products-label-container img
+{
+    width: 65%;
+}
+
+.Product-poster .Products-label-container h2
+{
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 25%;
+    text-align: center;
+    /* padding: 2.2em 1em 2.2em 0.3em; */
+    padding: 4.9vw 2.7vw 4.9vw 0.8vw;
+    border-radius: 50px;
+    font-size: 3vw;
+    color: #547665;
+    position: absolute;
+    right: 12%;
+    bottom: 18%;
+    transform: rotateZ(-90deg);
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px)
+{
+    .Product-poster .Products-label-container img
+    {
+        width: 75%;
+    }   
+    .Product-poster .Products-label-container h2
+    {
+        width: 21%;
+        text-align: center;
+        padding: 1.9em 1.9em 1.9em 0.5em;
+        border-radius: 32px;
+        font-size: 1.5em;
+        color: #547665;
+        position: absolute;
+        right: 17%;
+        bottom: 19%;
+        transition: transform 1s;
+        transform: rotateZ(-90deg);
+    }
+    .Product-poster .product-poster-content
+    {
+        position: absolute;
+        left: 7%;
+        top: 6%;
+        color: #547665;
+    }
+    .Product-poster .product-poster-content h4
+    {
+        width: 5%;
+        text-align: center;
+        background-color: white;
+        padding: 4px;
+        border-radius: 2px;
+    }
+    .Product-poster .product-poster-content h1
+    {
+        width: 30%;
+        font-size: 2em;
+        margin: 3px;
+    }
+    .Product-poster .product-poster-content p
+    {
+        width: 40%;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .Product-poster .Products-label-container img
+    {
+        width: 95%;
+    }   
+    .Product-poster .Products-label-container h2
+    {
+        width: 16%;
+        text-align: center;
+        padding: 1.5em 3.4em 1.5em 1.1em;
+        border-radius: 25px;
+        font-size: 1.1em;
+        color: #547665;
+        position: absolute;
+        right: 20%;
+        bottom: 19%;
+        transition: transform 1s;
+        transform: rotateZ(-90deg);
+    }
+    .Product-poster .product-poster-content
+    {
+        position: absolute;
+        left: 3%;
+        top: 13%;
+        color: #547665;
+    }
+    .Product-poster .product-poster-content h4
+    {
+        width: 34px;
+        font-size: 0.7em;
+        text-align: center;
+        background-color: white;
+        padding: 3px;
+        border-radius: 2px;
+        margin: 1px 1px 3px 1px;
+    }
+    .Product-poster .product-poster-content h1
+    {
+        width: 33%;
+        font-size: 5vw;
+        margin: 2px;
+    }
+    .Product-poster .product-poster-content p
+    {
+        width: 40%;
+        margin-top: 1px;
+        font-size: 0.7em;
+    }
+}

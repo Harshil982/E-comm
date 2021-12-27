@@ -1,0 +1,109 @@
+.Poster-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 3.4vh 0vw;
+}
+.ad-content-container
+{
+    width: 50%;
+    background-color: #537665;
+    color: white;
+    position: relative;
+}
+.ad-image
+{
+    width: 50%;
+    height: 80vh
+}
+
+.main-ad-content-cta
+{
+    position: absolute;
+    width: 50%;
+    left: 10vw;
+    top: 20vh;
+}
+.Poster-container .ad-content-container .main-ad-content-cta h1
+{
+    font-size: 2.1vw;
+}
+.Poster-container .ad-content-container .main-ad-content-cta p
+{
+    font-size: 1.1vw;
+}
+.Poster-container .ad-content-container .main-ad-content-cta button
+{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #53766500;
+    width: 15vw;
+    font-size: 1.1vw;
+    margin-top: 2em;
+    transition: transform 500ms;
+}
+.Poster-container .ad-content-container .main-ad-content-cta button:hover
+{
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px)
+{
+    .ad-image
+    {
+        width: 50%;
+        height: 55vh
+    }
+    .main-ad-content-cta
+    {
+        position: absolute;
+        width: 55%;
+        left: 10vw;
+        top: 16vh;
+    }
+    .Poster-container .ad-content-container .main-ad-content-cta h1
+    {
+        font-size: 2.3vw;
+    }
+    .Poster-container .ad-content-container .main-ad-content-cta p
+    {
+        font-size: 1.4vw;
+    }
+    .Poster-container .ad-content-container .main-ad-content-cta button
+    {
+        padding: 8px;
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .ad-image
+    {
+        width: 50%;
+        height: 34vh
+    }
+    .main-ad-content-cta
+    {
+        position: absolute;
+        width: 60%;
+        left: 10vw;
+        top: 10vh;
+    }
+    .Poster-container .ad-content-container .main-ad-content-cta h1
+    {
+        font-size: 2.5vw;
+    }
+    .Poster-container .ad-content-container .main-ad-content-cta p
+    {
+        font-size: 1.7vw;
+    }
+    .Poster-container .ad-content-container .main-ad-content-cta button
+    {
+        padding: 6px;
+        font-size: 1.5vw;
+    }
+}

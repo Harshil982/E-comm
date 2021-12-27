@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Products-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2vw 8vw;
+}
+
+.Product-info-card              /* styles for product card */
+{
+    width: 40vw;
+    /* margin: 2px 10px 60px 3px; */
+    /* margin: 10px 10px 10px 5px; */
+}
+
+.Product-info-card h3
+{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.Product-info-card p
+{
+    margin-top: 0px;
+}
+
+.Product-image              /* styles for image shown in product card */
+{
+    height: 250px;
+    width: 100%;
+}
+
+.Product-info-card .add-to-cart        /* styles for cart button in product card */
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #000000;
+    padding: 8px;
+    font-size: 1em;
+    transition: transform 400ms;
+}
+
+.add-to-cart:hover      /* styles for add to cart button in product card for hover effect*/
+{
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.cart-text          /* styles for cart text in product card */        
+{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px)
+{
+    .Products-container
+    {
+        margin: 2px 0px 5px 10%;
+    }
+    /* .Product-info-card              /* styles for product card 
+    {
+        /* width: 400px; 
+        /* margin: 10px 10px 10px 5px; 
+        /* border: 2px solid orangered; 
+    } */
+    .Product-image              /* styles for image shown in product card */
+    {
+        width: 125%;
+        height: auto;
+    }
+    .Product-info-card .add-to-cart        /* styles for cart button in product card */
+    {
+        width: 125%;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #000000;
+        padding: 8px;
+        font-size: 1em;
+        transition: transform 400ms;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Products-container
+    {
+        margin: 2px 0px 15px 18vw;
+        align-self: center;
+    }
+    .Product-info-card              /* styles for product card */
+    {
+        width: 100%;
+        margin: 2px 0px 60px 0px;
+    }
+    .Product-image              /* styles for image shown in product card */
+    {
+        height: 29vh;
+        width: 100%;
+    }
+    .Product-info-card .add-to-cart        /* styles for cart button in product card */
+    {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #000000;
+        padding: 8px;
+        font-size: 1em;
+        transition: transform 400ms;
+    }
+}

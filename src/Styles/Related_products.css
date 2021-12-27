@@ -1,0 +1,10 @@
+.Related-Products-Container
+{
+    margin: 2vw 8.5vw;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
