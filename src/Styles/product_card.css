@@ -44,6 +44,8 @@ body{
     padding: 8px;
     font-size: 1em;
     transition: transform 400ms;
+    display: flex;
+    justify-content: center;
 }
 
 .add-to-cart:hover      /* styles for add to cart button in product card for hover effect*/
