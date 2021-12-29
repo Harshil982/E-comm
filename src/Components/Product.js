@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import AdvertisePoster from "./Advertise_poster";
 import ProductPoster from "./ProductPoster";
 import ProductCard from "./product_card";
@@ -7,6 +7,9 @@ import ProductAndCategories from "./Product_Categories";
 import RelatedProduct from "./Related_products";
 
 const Product = () =>{
+    useEffect(()=>{
+        document.title = "Products"
+    },[])
     return(
         <>
             <div className="product-page-main-container">
@@ -16,6 +19,8 @@ const Product = () =>{
                 <AdvertisePoster />
                 <RelatedProduct />
             </div>
+            <div className="divider"></div>
+            <div className="Pass"></div>
         </>
     )
 }

@@ -1,13 +1,10 @@
-.flex-container
+/* .flex-container
 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin: 0vw 13vw;
-}
-.flex-container h3{
-    margin: 0%;
-}
+} */
 /* .Related-Products-container
 {
     display: flex;
@@ -15,18 +12,19 @@
     justify-content: space-between;
     flex-wrap: wrap;
 } */
-.Trial-container
+/* .Trial-container
 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 2vh 13vw;
-}
-/* .trail
+} */
+.trail
 {
     width: 23vw;
-    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-top: 1vh;
 }
 .trail img
 {
@@ -37,67 +35,79 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid #000000;
-    padding: 8px;
-    font-size: 1em;
+    padding: 0.5vw;
+    font-size: 1.1vw;
     transition: transform 400ms;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .trail button:hover
 {
     transform: translateY(-4px);
     cursor: pointer;
-} */
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)
 {
-    .Trial-container
+    /* .Trial-container
     {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin: 1vh 5vw;
-    }
-    /* .trail
+    } */
+    .trail
     {
         width: 27vw;
-    } */
+    }
+    .trail button
+    {
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 501px)
 {
-    /* .trail{
+    .trail{
         width: 40vw;
-    } */
-    .Trial-container
+    }
+    /* .Trial-container
     {
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
         margin: 2vh 4vw;
-    }
+    } */
     .Related-container
     {
         margin: 2px 0px 5px 10%;
     }
+    .trail button
+    {
+        font-size: 1.6em;
+    }
 }
 @media only screen and (max-width: 500px) {
-    .Trial-container
+    /* .Trial-container
     {
         display: flex;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-    /* .trail
+    } */
+    .trail
     {
         width: 69vw;
-    } */
-    .Related-container
+    }
+    /* .Related-container
     {
         margin: 2px 0px 15px 18vw;
         align-self: center;
+    } */
+    .trail button
+    {
+        font-size: 1.8em;
     }
 }
