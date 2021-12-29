@@ -20,7 +20,7 @@ function Card() {
             <h3>Cream</h3>
             <p>All organic Ingrediants</p>
             <p>$24.99 </p>
-            <button className="add-cart-btn" onClick={handleAddToCart} value="coming"><FontAwesomeIcon icon={faCartPlus} />Add to cart</button>
+            <button className="add-cart-btn" onClick={handleAddToCart} value="coming"><FontAwesomeIcon icon={faCartPlus} />&nbsp;&nbsp;&nbsp;&nbsp;Add to cart</button>
         </div>
     );
 }

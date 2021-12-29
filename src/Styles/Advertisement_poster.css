@@ -124,16 +124,16 @@
     }
     .Poster-container .ad-content-container .main-ad-content-cta h1
     {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
     .Poster-container .ad-content-container .main-ad-content-cta p
     {
-        font-size: 1.7vw;
+        font-size: 1.9vw;
     }
     .Poster-container .ad-content-container .main-ad-content-cta button
     {
         padding: 6px;
-        font-size: 1.5vw;
+        font-size: 1.7vw;
     }
 }
 @media only screen and (max-width: 375px)
@@ -147,20 +147,20 @@
     {
         position: absolute;
         width: 60%;
-        left: 10vw;
-        top: 7vh;
+        left: 7vw;
+        top: 5vh;
     }
     .Poster-container .ad-content-container .main-ad-content-cta h1
     {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
     .Poster-container .ad-content-container .main-ad-content-cta p
     {
-        font-size: 1.7vw;
+        font-size: 1.9vw;
     }
     .Poster-container .ad-content-container .main-ad-content-cta button
     {
         padding: 6px;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 }
