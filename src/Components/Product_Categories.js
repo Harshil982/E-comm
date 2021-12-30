@@ -6,19 +6,34 @@ const ProductAndCategories = (props) => {
     const [filter, setFilter] = useState("Recommended")
     const cardData = [
         {
-            item : "FaceWash",
-            ingrediants : "All natural",
-            Price : "21.99"
+            item: "FaceWash",
+            ingrediants: "All natural",
+            Price: "21.99"
         },
         {
-            item : "FaceWash",
-            ingrediants : "All natural",
-            Price : "21.99"
+            item: "FaceWash",
+            ingrediants: "All natural",
+            Price: "21.99"
         },
         {
-            item : "FaceWash",
-            ingrediants : "All natural",
-            Price : "21.99"
+            item: "FaceWash",
+            ingrediants: "All natural",
+            Price: "21.99"
+        },
+        {
+            item: "FaceWash",
+            ingrediants: "All natural",
+            Price: "21.99"
+        },
+        {
+            item: "FaceWash",
+            ingrediants: "All natural",
+            Price: "21.99"
+        },
+        {
+            item: "FaceWash",
+            ingrediants: "All natural",
+            Price: "21.99"
         }
     ]
     const CategoryData = props.data
@@ -42,11 +57,11 @@ const ProductAndCategories = (props) => {
                 <div className="main-category-container">
                     <div className="left-side-container">
                         {
-                            CategoryData.map((item,index) => (
+                            CategoryData.map((item, index) => (
                                 <div className="category-and-items" key={index}>
                                     <h2 className="Category-name">{item.Category_name}</h2>
                                     <div className="category-products">
-                                        {item.Products.map((item,ind)=>(
+                                        {item.Products.map((item, ind) => (
                                             <p key={ind}>{item}</p>
                                         ))}
                                     </div>
@@ -55,9 +70,12 @@ const ProductAndCategories = (props) => {
                         }
                     </div>
                     <div className="right-side-container">
-                        {cardData.map((item,i)=>(
-                            <Card data={item}/>
-                        ))}
+                        <div className="divider"></div>
+                        <div className="right-side-flex-container">
+                            {cardData.map((item, i) => (
+                                <Card data={item} key={i}/>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

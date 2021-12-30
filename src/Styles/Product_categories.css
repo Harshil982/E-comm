@@ -51,11 +51,14 @@
 .right-side-container
 {
     width: 64vw;
+    /* background-color: aquamarine; */
+}
+.right-side-flex-container
+{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: aquamarine; */
 }
 .category-and-items
 {

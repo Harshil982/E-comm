@@ -22,7 +22,7 @@ function Card(props) {
             <h3>{item}</h3>
             <p>{ingrediants}</p>
             <p>${Price}</p>
-            <button className="add-cart-btn" onClick={handleAddToCart} value="coming"><FontAwesomeIcon icon={faCartPlus} />&nbsp;&nbsp;&nbsp;&nbsp;Add to cart</button>
+            <button className="add-cart-btn" onClick={handleAddToCart} value={item}><FontAwesomeIcon icon={faCartPlus} />&nbsp;&nbsp;&nbsp;&nbsp;Add to cart</button>
         </div>
     );
 }
