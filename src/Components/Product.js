@@ -4,16 +4,18 @@ import ProductPoster from "./ProductPoster";
 import './../Styles/Product.css'
 import ProductAndCategories from "./Product_Categories";
 import RelatedProduct from "./Related_products";
+import CategoryList from './../Json/Category.json'
 
 const Product = () =>{
     useEffect(()=>{
         document.title = "Products"
     },[])
+    console.log(CategoryList);
     return(
         <>
             <div className="product-page-main-container">
                 <ProductPoster />
-                <ProductAndCategories />
+                <ProductAndCategories data={CategoryList}/>
                 <AdvertisePoster />
                 <RelatedProduct />
             </div>

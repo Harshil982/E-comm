@@ -1,0 +1,34 @@
+[
+    {
+        "Category_name" : "Serum",
+        "Products" : ["Hyaluronic and intense Hydration & Regenration System","Vitamin C Ant-oxidant Booster & Brightening Serum","Prickly Pear Face & Neck Serum"]
+    },
+    {
+        "Category_name" : "Cream",
+        "Products" : ["Rosa Damascena Face & Neck Cream"]
+    },
+    {
+        "Category_name" : "Eye Cream",
+        "Products" : ["Eye Bag Treatment- Puffy","Eye Firming Eye Cream"]
+    },
+    {
+        "Category_name" : "Natural Treatment",
+        "Products" : ["Natural Hand Cream with Hyaluronic Acid","Natural Scar Cream"]
+    },
+    {
+        "Category_name" : "Cleanser",
+        "Products" : ["Green Tea Facial Cleansing","Balancing Milk"]
+    },
+    {
+        "Category_name" : "Face Toner",
+        "Products" : ["Organic Rose Water"]
+    },
+    {
+        "Category_name" : "Soaps",
+        "Products" : ["3 Soaps","Green Tea Soap","Acne Soap","Ezcema Soap","Psoriasis Soap","Turmeric Soap","Dry Skin Soap","Moringa Soap","Itchy Skin Soap","Pine Tar Soap"]
+    },
+    {
+        "Category_name" : "OIL",
+        "Products" : ["Pure Organic Jojoba Oil"]
+    }
+]

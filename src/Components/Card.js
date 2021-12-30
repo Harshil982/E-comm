@@ -5,6 +5,7 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import './../Styles/Card.css'
 
 function Card(props) {
+    const {item,ingrediants,Price} = props.data
     const handleAddToCart = (e) => {
         console.log(e);
         if (e.target.parentNode.className === "add-to-cart") {
@@ -14,13 +15,13 @@ function Card(props) {
             console.log(e.target.value)
         }
     }
-    console.log(props);
+    // console.log(item);
     return (
         <div className="trail">
             <img src={Image} alt="Product-pic" />
-            <h3>{props.data.item}</h3>
-            <p>{props.data.ingrediants}</p>
-            <p>{props.data.price}</p>
+            <h3>{item}</h3>
+            <p>{ingrediants}</p>
+            <p>${Price}</p>
             <button className="add-cart-btn" onClick={handleAddToCart} value="coming"><FontAwesomeIcon icon={faCartPlus} />&nbsp;&nbsp;&nbsp;&nbsp;Add to cart</button>
         </div>
     );

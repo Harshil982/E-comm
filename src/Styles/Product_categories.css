@@ -33,3 +33,44 @@
 {
     background-color: gray;
 }
+
+.main-category-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2vh 0vw;
+}
+
+.left-side-container
+{
+    width: 17vw;
+    /* background-color: antiquewhite; */
+}
+.right-side-container
+{
+    width: 64vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+}
+.category-and-items
+{
+    margin-bottom: 10vh;
+}
+.category-and-items h2
+{
+    margin: 0%;
+    font-size: 1.6vw;
+}
+.category-and-items p
+{
+    font-size: 1.04vw;
+}
+.category-products
+{
+    margin: 0px 3px 0px 25px;
+}
