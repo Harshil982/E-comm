@@ -16,7 +16,7 @@ const ProductAndCategories = () => {
                         <option value="Recommended">Sort By : Recommended</option>
                         <option value="Price Low to high">Sort By : Price Low to high</option>
                         <option value="Price High to low">Sort By : Price High to low</option>
-                        <option value="Most reviewed">Sort By : Most Purchased</option>
+                        <option value="Most Purchased">Sort By : Most Purchased</option>
                     </select>
                 </div>
             </div>

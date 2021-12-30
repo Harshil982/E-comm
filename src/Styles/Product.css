@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
 .product-page-main-container
 {
     background-image: url('./../require-images/BC-03.png');
