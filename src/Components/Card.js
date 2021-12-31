@@ -5,7 +5,7 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import './../Styles/Card.css'
 
 function Card(props) {
-    const {item,ingrediants,Price} = props.data
+    const {item,ingrediants,Price,discount} = props.data
     const handleAddToCart = (e) => {
         console.log(e);
         if (e.target.parentNode.className === "add-to-cart") {
@@ -19,6 +19,7 @@ function Card(props) {
     return (
         <div className="trail">
             <img src={Image} alt="Product-pic" />
+            <p className="discount">{discount}% off</p>
             <h3>{item}</h3>
             <p>{ingrediants}</p>
             <p>${Price}</p>

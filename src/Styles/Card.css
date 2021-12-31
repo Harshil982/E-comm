@@ -25,10 +25,35 @@
     width: 20vw;
     margin-bottom: 3vw;
     margin-top: 1vh;
+    position: relative;
+}
+.discount
+{
+    position: absolute;
+    top: 24px;
+    left: 28px;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(212, 203, 203);
+    border-radius: 6px;
+    font-size: 0.9em;
+    padding: 10px;
+    color: brown;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
 }
 .trail img
 {
     width: 100%;
+}
+.trail h3
+{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.trail p
+{
+    margin-top: 0px;
 }
 .trail button
 {

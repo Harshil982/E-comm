@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0vw 13vw;
+    margin: 0vw 15vw;
 }
 .flex-container h3{
     margin: 0%;
@@ -21,7 +21,7 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 2vh 13vw;
+    margin: 2vh 15vw;
 }
 /* .trail
 {

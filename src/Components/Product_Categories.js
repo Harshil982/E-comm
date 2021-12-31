@@ -6,35 +6,87 @@ const ProductAndCategories = (props) => {
     const [filter, setFilter] = useState("Recommended")
     const cardData = [
         {
-            item: "FaceWash",
+            item: "FaceWash1",
+            discount : 15,
             ingrediants: "All natural",
             Price: "21.99"
         },
         {
-            item: "FaceWash",
+            item: "FaceWash2",
+            discount : 15,
             ingrediants: "All natural",
             Price: "21.99"
         },
         {
-            item: "FaceWash",
+            item: "FaceWash3",
+            discount : 15,
             ingrediants: "All natural",
             Price: "21.99"
         },
         {
-            item: "FaceWash",
+            item: "FaceWash4",
+            discount : 15,
             ingrediants: "All natural",
             Price: "21.99"
         },
         {
-            item: "FaceWash",
+            item: "FaceWash5",
+            discount : 15,
             ingrediants: "All natural",
             Price: "21.99"
         },
         {
-            item: "FaceWash",
+            item: "FaceWash6",
+            discount : 15,
             ingrediants: "All natural",
             Price: "21.99"
-        }
+        },
+        {
+            item: "FaceWash7",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash8",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash9",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash10",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash11",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash12",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash13",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash14",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },        {
+            item: "FaceWash15",
+            discount : 15,
+            ingrediants: "All natural",
+            Price: "21.99"
+        },
     ]
     const CategoryData = props.data
 
@@ -71,9 +123,18 @@ const ProductAndCategories = (props) => {
                     </div>
                     <div className="right-side-container">
                         <div className="divider"></div>
+                        <div className="main-products">
+                            <div className="main-card">
+                                <Card data={cardData[0]} />
+                            </div>
+                            <div className="other-two-products">
+                                <Card data={cardData[1]} />
+                                <Card data={cardData[2]} />
+                            </div>
+                        </div>
                         <div className="right-side-flex-container">
                             {cardData.map((item, i) => (
-                                <Card data={item} key={i}/>
+                                <Card data={item} key={i} />
                             ))}
                         </div>
                     </div>

@@ -1,46 +1,55 @@
 [
     {
         "item" : "Cream1",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream2",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream3",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream4",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream5",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream6",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream7",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream8",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     },
     {
         "item" : "Cream9",
+        "discount" : 15,
         "ingrediants" : "All organic Ingrediants",
         "Price" : 24.99
     }
