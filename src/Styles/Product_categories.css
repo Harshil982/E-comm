@@ -92,34 +92,23 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-/*.right-side-flex-container > :first-child
-{
-    width: 42vw;
-    /* height: 80vh; 
-}
-.right-side-flex-container > :first-child img
-{
-    width: 42vw;
-    /* height: 50vw; 
-}
-.right-side-flex-container > :nth-child(2) 
-{
-    background-color: antiquewhite;
-}*/
 .category-and-items
 {
     margin-bottom: 10vh;
 }
 .category-and-items h2
 {
-    margin: 0%;
     font-size: 1.6vw;
-}
-.category-and-items p
-{
-    font-size: 1.04vw;
 }
 .category-products
 {
     margin: 0px 3px 0px 25px;
+}
+.category-products a
+{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1vw;
+    color: black;
+    font-size: 1.04vw;
 }
