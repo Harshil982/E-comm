@@ -100,8 +100,38 @@
 }
 @media only screen and (max-width: 500px)
 {
+    .subscribe
+    {
+        flex-direction: column;
+    }
+    .subscribe .flex-cont
+    {
+        width: 100%;
+    }
     .subscribe .flex-cont h1
     {
+        width: 26vw;
+        font-size: 4vw;
+    }
+    .subscribe .flex-cont p
+    {
+        width: 45vw;
+        font-size: 3.3vw;
+    }
+    .subscribe .flex-1
+    {
+        margin-top: 4vw;
+        display: flex;
+        justify-content: center;
+    }
+    .subscribe .flex-1 input
+    {
         font-size: 3vw;
+        width: 40vw;
+    }
+    .subscribe .flex-1 button
+    {
+        font-size: 3vw;
+        font-weight: 600;
     }
 }
