@@ -30,12 +30,12 @@
 .discount
 {
     position: absolute;
-    top: 24px;
-    left: 28px;
+    top: 1.5vw;
+    left: 1.7vw;
     background-color: white;
     box-shadow: 0px 0px 12px rgb(212, 203, 203);
     border-radius: 6px;
-    font-size: 0.9em;
+    font-size: 1vw;
     padding: 10px;
     color: brown;
     font-weight: 600;
@@ -102,6 +102,10 @@
         transform: translateY(-4px);
         cursor: pointer;
     }
+    .discount
+    {
+        font-size: 2vw;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 501px)
@@ -132,6 +136,10 @@
         display: flex;
         justify-content: center;
     }
+    .discount
+    {
+        font-size: 2vw;
+    }
 }
 @media only screen and (max-width: 500px) {
     /* .Trial-container
@@ -160,5 +168,10 @@
         transition: transform 400ms;
         display: flex;
         justify-content: center;
+    }
+    .discount
+    {
+        padding: 8px;
+        font-size: 2.7vw;
     }
 }

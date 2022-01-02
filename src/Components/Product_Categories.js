@@ -1,94 +1,11 @@
 import React, { useState } from "react";
 import './../Styles/Product_categories.css'
 import Card from "./Card";
+import CategoryProducts from './../Json/Category_products.json'
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 
 const ProductAndCategories = (props) => {
     const [filter, setFilter] = useState("Recommended")
-    const cardData = [
-        {
-            item: "Cream1",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-        {
-            item: "Cream2",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-        {
-            item: "Cream3",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-        {
-            item: "Cream4",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-        {
-            item: "Cream5",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-        {
-            item: "Cream6",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-        {
-            item: "Cream7",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream8",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream9",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream10",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream11",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream12",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream13",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream14",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        }, {
-            item: "Cream15",
-            discount: 15,
-            ingrediants: "All natural",
-            Price: "21.99"
-        },
-    ]
     const CategoryData = props.data
 
     const handleOnchange = (e) => {
@@ -96,6 +13,10 @@ const ProductAndCategories = (props) => {
     }
     console.log(filter);
     console.log(props.data);
+    console.log(CategoryProducts.slice(0,1));
+    console.log(CategoryProducts.slice(1,2));
+    console.log(CategoryProducts.slice(2,3));
+    console.log(CategoryProducts.slice(3));
     return (
         <>
             <Router>
@@ -131,15 +52,15 @@ const ProductAndCategories = (props) => {
                             <div className="divider"></div>
                             <div className="main-products">
                                 <div className="main-card">
-                                    <Card data={cardData[0]} />
+                                    <Card data={CategoryProducts.slice(0,1)[0]} />
                                 </div>
                                 <div className="other-two-products">
-                                    <Card data={cardData[1]} />
-                                    <Card data={cardData[2]} />
+                                    <Card data={CategoryProducts.slice(1,2)[0]} />
+                                    <Card data={CategoryProducts.slice(2,3)[0]} />
                                 </div>
                             </div>
                             <div className="right-side-flex-container">
-                                {cardData.map((item, i) => (
+                                {CategoryProducts.slice(3).map((item, i) => (
                                     <Card data={item} key={i} />
                                 ))}
                             </div>

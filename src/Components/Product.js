@@ -5,6 +5,7 @@ import './../Styles/Product.css'
 import ProductAndCategories from "./Product_Categories";
 import RelatedProduct from "./Related_products";
 import CategoryList from './../Json/Category.json'
+import Footer from "./Footer";
 
 const Product = () =>{
     useEffect(()=>{
@@ -20,7 +21,7 @@ const Product = () =>{
                 <RelatedProduct />
             </div>
             <div className="divider"></div>
-            <div className="Pass"></div>
+            <Footer />
         </>
     )
 }
