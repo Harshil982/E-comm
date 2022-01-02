@@ -1,0 +1,107 @@
+.subscribe
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1vw 9vw;
+}
+.subscribe h1
+{
+    width: 13vw;
+    color: #354e57;
+}
+.subscribe .flex-1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.subscribe .flex-cont
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 38vw;
+}
+.subscribe .flex-cont p
+{
+    width: 20vw;
+}
+.subscribe .flex-cont h1
+{
+    font-size: 2vw;
+}
+.verticle-divider
+{
+    width: 1px;
+    height: 62px;
+    background-color: gray;
+}
+.subscribe .flex-1 button
+{
+    background-color: #547665;
+    color: white;
+    border: 1px solid #547665;
+    padding: 0.6vw;
+    /* width: 7vw; */
+    transition: 500ms;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.subscribe .flex-1 button:hover
+{
+    background-color: white;
+    color: #547665;
+    cursor: pointer;
+}
+.subscribe .flex-1 input
+{
+    padding: 0.6vw;
+    width: 20vw;
+    font-size: 1vw;
+}
+.subscribe .flex-1 input:focus
+{
+    box-shadow: 0px 0px 13px gray;
+}
+
+@media only screen and (max-width: 1024px) and (min-width : 769px)
+{
+    .subscribe .flex-cont p
+    {
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width : 501px)
+{
+    .subscribe .flex-cont
+    {
+        width: 48vw;
+    }
+    .subscribe .flex-cont p
+    {
+        width: 29vw;
+        font-size: 2vw;
+    }
+    .subscribe .flex-1 input
+    {
+        padding: 1vw;
+    }
+    .subscribe .flex-1 button
+    {
+        padding: auto;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .subscribe .flex-cont h1
+    {
+        font-size: 3vw;
+    }
+}
