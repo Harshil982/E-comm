@@ -131,7 +131,7 @@
     }
     .subscribe .flex-1 button
     {
-        font-size: 3vw;
-        font-weight: 600;
+        font-size: 3.2vw;
+        font-weight: 500;
     }
 }
