@@ -1,3 +1,4 @@
+// this component is for the advertisement poster
 import React from "react";
 import AdImage from './../require-images/PRODUCT BC - 01.png'
 // import Grid from '@mui/material/Grid'

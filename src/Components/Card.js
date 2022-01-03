@@ -1,3 +1,4 @@
+// this component is for all product card
 import React from 'react';
 import Image from './../require-images/no-image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -5,7 +6,10 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import './../Styles/Card.css'
 
 function Card(props) {
+    // getting prop data
     const {item,ingrediants,Price,discount} = props.data
+
+    //handling add to cart event
     const handleAddToCart = (e) => {
         console.log(e);
         if (e.target.parentNode.className === "add-to-cart") {

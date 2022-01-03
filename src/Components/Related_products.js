@@ -1,3 +1,4 @@
+//this component is for related products part
 import React from "react";
 import './../Styles/Related_products.css'
 import Card from './Card.js'

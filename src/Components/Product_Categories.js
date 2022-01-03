@@ -1,3 +1,4 @@
+//this component is for product categories
 import React, { useState } from "react";
 import './../Styles/Product_categories.css'
 import Card from "./Card";
@@ -5,6 +6,7 @@ import CategoryProducts from './../Json/Category_products.json'
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 
 const ProductAndCategories = (props) => {
+    //getting the filter value
     const [filter, setFilter] = useState("Recommended")
     const CategoryData = props.data
 

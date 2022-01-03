@@ -1,3 +1,4 @@
+//this component is for main poster
 import React from "react";
 import PlantImage from './../require-images/HEADER 01.png'
 import './../Styles/Product_poster.css'

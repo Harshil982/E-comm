@@ -1,7 +1,9 @@
+// this component is for footer
 import React, { useState } from 'react';
 import './../Styles/Footer.css'
 
 function Footer() {
+    //setting input field value
     const [inputValue, setInputValue] = useState('')
     const handleInputChange = (e) => {
         setInputValue(e.target.value)
