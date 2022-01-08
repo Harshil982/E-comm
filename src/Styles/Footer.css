@@ -44,26 +44,28 @@
 }
 .subscribe .flex-1 button
 {
-    background-color: #547665;
-    color: white;
-    border: 1px solid #547665;
-    padding: 0.6vw;
-    /* width: 7vw; */
-    transition: 500ms;
     font-size: 1vw;
-    font-weight: 500;
+    background-color: #547665;
+    padding: 0.7vw 1.4vw;
+    border: 1px solid white;
+    color: white;
+    transition: 700ms;
 }
 .subscribe .flex-1 button:hover
 {
+    border: 1px solid #547665;
     background-color: white;
     color: #547665;
     cursor: pointer;
 }
 .subscribe .flex-1 input
 {
-    padding: 0.6vw;
-    width: 20vw;
     font-size: 1vw;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 0.7vw;
+    border: 1px solid gray;
+    color: white;
+    width: 15vw;
 }
 .subscribe .flex-1 input:focus
 {
@@ -90,9 +92,77 @@
     flex-wrap: wrap;
     color: white;
 }
-.links div
+.links
 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.links .policy
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30vw;
+    text-decoration: none;
+}
+.links .policy a
+{
+    color: white;
+}
+.links .social-media
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     font-size: 2vw;
+    width: 13vw;
+}
+.social-media svg:hover
+{
+    cursor: pointer;
+    transition: transform 700ms;
+    transform: translateY(-4px);
+    color: red;
+}
+.footnote-location-info input
+{
+    font-size: 1vw;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 0.8vw;
+    border: 1px solid white;
+    color: white;
+    width: 15vw;
+}
+.footnote-location-info button
+{
+    font-size: 1vw;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 0.8vw 1.4vw;
+    border: 1px solid white;
+    color: white;
+}
+.footnote-location-info button:hover
+{
+    cursor: pointer;
+}
+.footnote-location-info div form input::placeholder
+{
+    color: white;
+}
+.footnote-location-info input:focus
+{
+    border: none;
+    box-shadow: 0px 0px 20px white;
+}
+.footnote-location-info .map
+{
+    width: 13vw;
+    height: 10vw;
 }
 @media only screen and (max-width: 1024px) and (min-width : 769px)
 {

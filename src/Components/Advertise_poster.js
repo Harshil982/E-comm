@@ -1,10 +1,10 @@
 // this component is for the advertisement poster
 import React from "react";
-import AdImage from './../require-images/PRODUCT BC - 01.png'
+// import AdImage from './../require-images/PRODUCT BC - 01.png'
 // import Grid from '@mui/material/Grid'
 import './../Styles/Advertisement_poster.css'
 
-const AdvertisePoster = () => {
+const AdvertisePoster = (props) => {
     return (
         <>
             {/* <Grid container spacing={0} direction="row">
@@ -25,7 +25,7 @@ const AdvertisePoster = () => {
                         <button>Shop more</button>
                     </div>
                 </div>
-                <img src={AdImage} className="ad-image" alt="Natural product" />
+                <img src={props.image} className="ad-image" alt="Natural product" />
             </div>
             <br/>
             <br/>

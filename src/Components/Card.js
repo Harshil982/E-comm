@@ -24,7 +24,7 @@ function Card(props) {
         <div className="trail">
             <img src={Image} alt="Product-pic" />
             <p className="discount">{discount}% off</p>
-            <h3>{item}</h3>
+            <h4>{item}</h4>
             <p>{ingrediants}</p>
             <p>${Price}</p>
             <button className="add-cart-btn" onClick={handleAddToCart} value={item}><FontAwesomeIcon icon={faCartPlus} />&nbsp;&nbsp;&nbsp;&nbsp;Add to cart</button>

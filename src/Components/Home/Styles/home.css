@@ -1,0 +1,76 @@
+.home-div
+{
+    background-image: url('/public/BC-03.png');
+    background-repeat: repeat;
+    background-size: 100%;
+}
+.home-most-popular-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1vw 8vw;
+}
+.home-most-popular-container .trail
+{
+    width: 20vw;
+}
+.home-most-popular-container img
+{
+    height: 22vw;
+    width: 100%;
+}
+.insta
+{
+    text-align: center;
+}
+.insta img
+{
+    align : center;
+    width: 4vw;
+}
+.insta-handles-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1vw 10vw;
+}
+.any-Insta
+{
+    height: 250px;
+    width: 250px;
+    background-color: #547665;
+}
+.frequent-ask-que
+{
+    margin: 0px 20vw;
+    background-color: rgba(255, 0, 0, 0);
+}
+.slide-hero
+{
+    padding: 200px;
+    width: 100%;
+}
+.row-title
+{
+    transition: 300ms;
+}
+.row-title .row-title-text
+{
+    padding: 1px 20px;
+}
+.frequent-ask-que .faq-row-wrapper .faq-body .faq-row .row-content
+{
+    padding: 1px 20px;
+}
+.row-title:hover
+{
+    background-color: #547665;
+}
+.row-title:hover .row-title-text
+{
+    color: white;
+}

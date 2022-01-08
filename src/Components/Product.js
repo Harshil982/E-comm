@@ -3,6 +3,7 @@ import React,{useEffect} from "react";
 import AdvertisePoster from "./Advertise_poster";
 import ProductPoster from "./ProductPoster";
 import './../Styles/Product.css'
+import AdImage from './../require-images/PRODUCT BC - 01.png'
 import ProductAndCategories from "./Product_Categories";
 import RelatedProduct from "./Related_products";
 import CategoryList from './../Json/Category.json'
@@ -19,7 +20,7 @@ const Product = () =>{
             <div className="product-page-main-container">
                 <ProductPoster />
                 <ProductAndCategories data={CategoryList}/>
-                <AdvertisePoster />
+                <AdvertisePoster image={AdImage}/>
                 <RelatedProduct />
             </div>
             <div className="divider"></div>
