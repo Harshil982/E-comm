@@ -4,6 +4,21 @@
     background-repeat: repeat;
     background-size: 100%;
 }
+.soln-for-all-skin
+{
+    text-align: center;
+    background-color: #A7C6B3;
+    padding: 1vw;
+}
+.soln-for-all-skin h1
+{
+    color: #354E57;
+    margin-bottom: 0vw;
+}
+.soln-for-all-skin p
+{
+    color: white;
+}
 .home-most-popular-container
 {
     display: flex;
@@ -12,6 +27,34 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1vw 8vw;
+}
+.video-ad
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+.video-ad-text-content
+{
+    width: 50%;
+    background-color: #547665;
+}
+.video-ad .video-ad-text-content button
+{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #53766500;
+    width: 15vw;
+    font-size: 1.1vw;
+    margin-top: 2em;
+    transition: transform 500ms;
+}
+.video-ad .video-ad-text-content button:hover
+{
+    transform: translateY(-4px);
+    cursor: pointer;
 }
 .home-most-popular-container .trail
 {
@@ -34,15 +77,17 @@
 .insta-handles-container
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 1vw 10vw;
+    margin: 1vw 13vw;
 }
 .any-Insta
 {
     height: 250px;
     width: 250px;
     background-color: #547665;
+    margin-bottom: 25px;
 }
 .frequent-ask-que
 {

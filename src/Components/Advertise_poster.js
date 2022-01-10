@@ -17,9 +17,9 @@ const AdvertisePoster = (props) => {
                     <img src={AdImage} style={{height : "90%"}} alt="Natural product" />
                 </Grid>
             </Grid> */}
-            <div className="Poster-container">
+            <div className="Poster-container" data-aos="fade-in">
                 <div className="ad-content-container">
-                    <div className="main-ad-content-cta">
+                    <div className="main-ad-content-cta" data-aos="fade-right">
                         <h1>Clean products that deliver better solutions</h1>
                         <p>A helthier you from the inside out. We're sourced the cleanest ingrediants to create a line of skin care treatments that leave you feeling your best.</p>
                         <button>Shop more</button>
