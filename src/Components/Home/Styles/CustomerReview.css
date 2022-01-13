@@ -1,0 +1,23 @@
+.customer-review
+{
+    background-color: white;
+    padding: 3vw;
+    position: relative;
+    z-index: 100;
+    overflow: visible;
+}
+.customer-review h2,.customer-review p
+{
+    text-align: center;
+}
+.customer-review img
+{
+    height: 10vw;
+    width: 10vw;
+    z-index: 100;
+    border-radius: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8vw;
+    overflow: visible;
+}

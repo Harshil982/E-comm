@@ -3,27 +3,21 @@ import './Styles/home.css'
 import Img2 from './../../require-images/Clean products that deliver better solutions-05.png'
 import InstaIMG from './../../require-images/logo-instagram.png'
 import Faq from 'react-faq-component'
-// import VideoPlayer from 'react-simple-video-player';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import ReactPlayer from 'react-player';
-import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import Card from '../Card';
 import AdvertisePoster from '../Advertise_poster';
 import Footer from '../Footer';
+import Testimonials from './Testimonials';
 
 function Home(props) {
     useEffect(() => {
+        window.scrollTo(0,0)
         document.title = "Home"
         Aos.init({
-            duration : 1400,
-            offset : 100
+            duration: 1400,
+            offset: 150
         })
     })
     const data = {
@@ -111,47 +105,31 @@ function Home(props) {
                 <AdvertisePoster image={Img2} />
                 <div className="home-most-popular-container" data-aos="fade-right">
                     {cardData.map((item, index) => (
-                        <Card key={index} data={item}/>
+                        <Card key={index} data={item} />
                     ))}
                     {cardData.map((item, index) => (
                         <Card key={index} data={item} />
                     ))}
                 </div>
                 <div className="insta">
-                    <img src={InstaIMG} alt="insta" data-aos="fade-left"/>
-                    <h3 data-aos="zoom-in-up">Connect With Instagram Account</h3>
+                    <img src={InstaIMG} alt="insta" data-aos="fade-left" />
+                    <h3 data-aos="zoom-in">Connect With Instagram Account</h3>
                 </div>
-                <div className="insta-handles-container" data-aos="fade-right">
+                <div className="insta-handles-container" data-aos="fade-up">
                     {arrayR.map((i, ind) => (
                         <div key={ind} className="any-Insta">
                         </div>
                     ))}
                 </div>
+                <Testimonials />
                 <div className="frequent-ask-que">
-                    <h2 style={{ textAlign: "center" }}>Frequently Asked Questions</h2>
+                    <h2 style={{ textAlign: "center" }} data-aos="fade-left">Frequently Asked Questions</h2>
                     <Faq
                         data={data}
                         styles={styles}
                         config={config}
+                        data-aos="fade-up"
                     /></div>
-                <Swiper
-                    // install Swiper modules
-                    modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
-                    spaceBetween={50}
-                    slidesPerView={1}
-                    navigation
-                    pagination={{ clickable: true }}
-                    scrollbar={{ draggable: true }}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    onSlideChange={() => console.log('slide change')}
-                    rewind={true}
-                    effect="fade"
-                >
-                    <SwiperSlide ><h1>Welcome to Bgmi</h1></SwiperSlide>
-                    <SwiperSlide><h1>Harshil</h1></SwiperSlide>
-                    <SwiperSlide><h1>Again</h1></SwiperSlide>
-                    <SwiperSlide><h1>Do clutches & get Fuc*ing WWCD</h1></SwiperSlide>
-                </Swiper>
                 {/* <VideoPlayer
                     url="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
                     autoplay
@@ -167,12 +145,14 @@ function Home(props) {
                         controls={false}
                         muted={true}
                         width="50%"
-                        height="100%"
+                        height="40vw"
                     />
                     <div className="video-ad-text-content">
-                        <h1>Social Media Videos Help to Care</h1>
-                        <p>A helthier you from the inside out. We're sourced the cleanest ingrediants to create a line of skin care treatments that leave you feeling your best.</p>
-                        <button>View More</button>
+                        <div>
+                            <h1>Social Media Videos Help to Care</h1>
+                            <p>A helthier you from the inside out. We're sourced the cleanest ingrediants to create a line of skin care treatments that leave you feeling your best.</p>
+                            <button>View More</button>
+                        </div>
                     </div>
                 </div>
             </div>

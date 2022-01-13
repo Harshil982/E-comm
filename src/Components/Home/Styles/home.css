@@ -1,3 +1,4 @@
+
 .home-div
 {
     background-image: url('/public/BC-03.png');
@@ -35,10 +36,29 @@
     flex-direction: row;
     color: white;
 }
+.video-ad .react-player
+{
+    background-color: black;
+}
 .video-ad-text-content
 {
     width: 50%;
     background-color: #547665;
+    position: relative;
+}
+.video-ad-text-content div
+{
+    position: absolute;
+    top: 9vw;
+    left: 7vw;
+}
+.video-ad-text-content div h1
+{
+    width: 20vw;
+}
+.video-ad-text-content div p
+{
+    width: 30vw;
 }
 .video-ad .video-ad-text-content button
 {
@@ -71,7 +91,8 @@
 }
 .insta img
 {
-    align : center;
+    margin-left: auto;
+    margin-right: auto;
     width: 4vw;
 }
 .insta-handles-container

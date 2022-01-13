@@ -1,10 +1,18 @@
 // this component is for the advertisement poster
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos'
 // import AdImage from './../require-images/PRODUCT BC - 01.png'
 // import Grid from '@mui/material/Grid'
 import './../Styles/Advertisement_poster.css'
+import 'aos/dist/aos.css'
 
 const AdvertisePoster = (props) => {
+    useEffect(()=>{
+        AOS.init({
+            duration: 1400,
+            offset: 150
+        })
+    })
     return (
         <>
             {/* <Grid container spacing={0} direction="row">
