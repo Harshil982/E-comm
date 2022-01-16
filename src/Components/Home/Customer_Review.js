@@ -1,6 +1,6 @@
 import React from 'react';
 import './Styles/CustomerReview.css'
-import dummyUser from './../../require-images/dummy_user.jfif'
+import dummyUser from './../../require-images/dummy_user1.jfif'
 import StarRatings from 'react-star-ratings'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'

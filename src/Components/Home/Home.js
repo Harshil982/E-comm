@@ -10,6 +10,7 @@ import Card from '../Card';
 import AdvertisePoster from '../Advertise_poster';
 import Footer from '../Footer';
 import Testimonials from './Testimonials';
+import HomeMainPoster from './HomeMainPoster';
 
 function Home(props) {
     useEffect(() => {
@@ -17,7 +18,7 @@ function Home(props) {
         document.title = "Home"
         Aos.init({
             duration: 1400,
-            offset: 150
+            offset: 100
         })
     })
     const data = {
@@ -93,7 +94,8 @@ function Home(props) {
     return (
         <>
             <div className="home-div">
-                <div className="soln-for-all-skin" data-aos="fade-right">
+                <HomeMainPoster />
+                <div className="soln-for-all-skin">
                     <h1>Solutions for all skin health</h1>
                     <p>Explore our innovative skincare products</p>
                 </div>
