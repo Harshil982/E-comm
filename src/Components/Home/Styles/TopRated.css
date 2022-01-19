@@ -46,7 +46,11 @@
     }
     .home-top-rated-container .trail h3
     {
-        font-size: 2vw;
+        font-size: 2.4vw;
+    }
+    .home-top-rated-container .trail p
+    {
+        font-size: 1.7vw;
     }
     .home-top-rated-container .trail
     {

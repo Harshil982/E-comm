@@ -27,6 +27,10 @@
 {
     color: white;
 }
+.frequent-ask-que .row-content-text
+{
+    font-size: 2vw;
+}
 @media only screen and (max-width: 768px)
 {
     .frequent-ask-que
@@ -37,6 +41,10 @@
     .frequent-ask-que h2
     {
         font-size: 3vw;
+    }
+    .frequent-ask-que .row-title-text
+    {
+        font-size: 2.4vw;
     }
 }
 @media only screen and (max-width: 426px)

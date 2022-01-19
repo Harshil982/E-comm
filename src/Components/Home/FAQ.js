@@ -9,7 +9,6 @@ function FAQ(props) {
         rowTitleColor: "Black",
         rowTitlePadding: "10px 20px",
         rowContentColor: 'grey',
-        rowContentfontSize: '3vw',
     };
 
     const config = {
