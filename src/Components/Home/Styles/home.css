@@ -10,6 +10,7 @@
     text-align: center;
     background-color: #A7C6B3;
     padding: 1vw;
+    margin-top: -0.55vw;
 }
 .soln-for-all-skin h1
 {
@@ -20,15 +21,15 @@
 {
     color: white;
 }
-.home-most-popular-container
+/* .home-most-popular-container
 {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 1vw 8vw;
-}
+    margin: 0vw 8vw;
+} */
 .video-ad
 {
     display: flex;
@@ -76,7 +77,7 @@
     transform: translateY(-4px);
     cursor: pointer;
 }
-.home-most-popular-container .trail
+/* .home-most-popular-container .trail
 {
     width: 20vw;
 }
@@ -84,7 +85,7 @@
 {
     height: 22vw;
     width: 100%;
-}
+} */
 .insta
 {
     text-align: center;

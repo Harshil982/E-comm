@@ -10,13 +10,20 @@
 {
     margin-bottom: 0vw;
 }
+.home-main-poser-container .slick-track
+{
+    padding-top: 0vw;
+}
+.slick-slide:first-child {
+    z-index: 10;
+}
 .slick-dots
 {
     position: absolute;
     bottom: 2vw;
     left: -34.7vw;
 }
-.slick-dots button
+.slick-dots li
 {
     width: 5vw;
     height: 0.4vw;
@@ -26,7 +33,7 @@
 }
 .slick-dots .slick-active
 {
-    background-color: gray;
+    background-color: #547665;
 }
 .home-main-poster .home-main-poster-text-content
 {
@@ -47,6 +54,10 @@
     border: 1px solid black;
     width: 14vw;
 }
+.home-main-poster .home-main-poster-text-content button:hover
+{
+    cursor: pointer;
+}
 .home-main-poster .home-main-poster-text-content p
 {
     color: gray;
@@ -59,7 +70,14 @@
 }
 .home-main-poster .home-poster-img img
 {
-    width: 52vw;
-    height: 42vw;
+    width: 47vw;
+    height: 37vw;
     margin-right: 9vw;
+}
+@media only screen and (max-width: 910px)
+{
+    .home-main-poster .home-main-poster-text-content p
+    {
+        width: 42vw;
+    }
 }

@@ -1,0 +1,29 @@
+.home-top-rated-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0vw 8vw;
+}
+.home-top-rated-container .trail
+{
+    width: 20vw;
+}
+.home-top-rated-container img
+{
+    height: 22vw;
+    width: 100%;
+}
+.top-rated
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0vw 8vw;
+}
+.top-rated p
+{
+    font-size: 1.17vw;
+    font-weight: 600;
+}

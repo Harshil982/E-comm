@@ -24,6 +24,7 @@ function Card(props) {
         <div className="trail">
             <img src={Image} alt="Product-pic" />
             <p className="discount">{discount}% off</p>
+            <p className="new">New!</p>
             <h4>{item}</h4>
             <p>{ingrediants}</p>
             <p>${Price}</p>

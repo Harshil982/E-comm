@@ -11,14 +11,17 @@ import AdvertisePoster from '../Advertise_poster';
 import Footer from '../Footer';
 import Testimonials from './Testimonials';
 import HomeMainPoster from './HomeMainPoster';
+import MostPopular from './MostPopular';
+import TopRated from './TopRated';
+// import {Link} from 'react-router-dom'
 
 function Home(props) {
     useEffect(() => {
-        window.scrollTo(0,0)
+        window.scrollTo(0, 0)
         document.title = "Home"
         Aos.init({
             duration: 1400,
-            offset: 100
+            offset: 100,
         })
     })
     const data = {
@@ -99,20 +102,9 @@ function Home(props) {
                     <h1>Solutions for all skin health</h1>
                     <p>Explore our innovative skincare products</p>
                 </div>
-                <div className="home-most-popular-container" data-aos="fade-up">
-                    {cardData.map((item, index) => (
-                        <Card key={index} data={item} />
-                    ))}
-                </div>
+                <MostPopular />
                 <AdvertisePoster image={Img2} />
-                <div className="home-most-popular-container" data-aos="fade-right">
-                    {cardData.map((item, index) => (
-                        <Card key={index} data={item} />
-                    ))}
-                    {cardData.map((item, index) => (
-                        <Card key={index} data={item} />
-                    ))}
-                </div>
+                <TopRated />
                 <div className="insta">
                     <img src={InstaIMG} alt="insta" data-aos="fade-left" />
                     <h3 data-aos="zoom-in">Connect With Instagram Account</h3>

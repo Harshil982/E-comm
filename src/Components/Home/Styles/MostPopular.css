@@ -1,0 +1,33 @@
+.home-most-popular-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0vw 8vw;
+}
+.home-most-popular-container .trail
+{
+    width: 20vw;
+}
+.home-most-popular-container img
+{
+    height: 22vw;
+    width: 100%;
+}
+.most-popular
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0vw 8vw;
+}
+.most-popular p
+{
+    font-size: 1.17vw;
+    font-weight: 600;
+}
+.home-most-popular-container .trail .new
+{
+    display: block;
+}
