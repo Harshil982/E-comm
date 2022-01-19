@@ -1,3 +1,11 @@
+.testimonials-container
+{
+    margin: 1vw 16vw;
+}
+.testimonials-container h2
+{
+    text-align: center;
+}
 .slick-track
 {
     padding-top: 7vw;
@@ -27,4 +35,29 @@
 }
 .slick-prev {
     left: -45px;
+}
+@media only screen and (max-width: 768px)
+{
+    .slick-track
+    {
+        padding-top: 10vw;
+    }
+    .slick-prev,.slick-next
+    {
+        display: none;
+    }
+    .testimonials-container h2
+    {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .testimonials-container .customer-review h2
+    {
+        font-size: 4.6vw;
+        text-align: center;
+    }
+    .testimonials-container .customer-review p
+    {
+        font-size: 2.8vw;
+    }
 }

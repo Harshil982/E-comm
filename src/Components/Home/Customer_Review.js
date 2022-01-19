@@ -21,7 +21,7 @@ function CustomerReview(props) {
                 starRatedColor="#547665"
                 numberOfStars={5}
                 name='rating'
-                starDimension="1.5vw"
+                starDimension = "false"
                 // isAggregateRating={true}
                 // changeRating={changeRatingC}
                 starSpacing="0.4vw"

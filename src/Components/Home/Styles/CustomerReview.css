@@ -21,3 +21,36 @@
     margin-top: -8vw;
     overflow: visible;
 }
+.customer-review .star-ratings .star-container svg 
+{
+    height: 2vw;
+    width: 2vw;
+}
+@media only screen and (max-width: 768px)
+{
+    .customer-review img
+    {
+        height: 15vw;
+        width: 15vw;
+        margin-top: -10vw;
+    }
+    .customer-review .star-ratings .star-container svg 
+    {
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+}
+@media only screen and (max-width: 481px)
+{
+    .customer-review img
+    {
+        height: 25vw;
+        width: 25vw;
+        margin-top: -12vw;
+    }
+    .customer-review .star-ratings .star-container svg 
+    {
+        height: 5.5vw;
+        width: 5.5vw;
+    }
+}

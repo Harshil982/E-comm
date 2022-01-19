@@ -23,3 +23,19 @@
     background-color: #547665;
     margin-bottom: 25px;
 }
+@media only screen and (max-width: 600px)
+{
+    .insta img
+    {
+        width: 9vw;
+    }
+    .insta h3
+    {
+        font-size: 3vw;
+    }
+    .any-Insta
+    {
+        width: 35vw;
+        height: 35vw;
+    }
+}

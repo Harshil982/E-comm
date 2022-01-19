@@ -1,0 +1,61 @@
+.frequent-ask-que
+{
+    margin: 4vw 20vw;
+    background-color: rgba(255, 0, 0, 0);
+}
+.frequent-ask-que h2
+{
+    text-align: center;
+}
+.row-title
+{
+    transition: 300ms;
+}
+.row-title .row-title-text
+{
+    padding: 1px 20px;
+}
+.frequent-ask-que .faq-row-wrapper .faq-body .faq-row .row-content
+{
+    padding: 1px 20px;
+}
+.row-title:hover
+{
+    background-color: #547665;
+}
+.row-title:hover .row-title-text
+{
+    color: white;
+}
+@media only screen and (max-width: 768px)
+{
+    .frequent-ask-que
+    {
+        margin: 4vw 7vw;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    .frequent-ask-que h2
+    {
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 426px)
+{
+    .frequent-ask-que
+    {
+        margin: 9vw 2vw;
+    }
+    .frequent-ask-que h2
+    {
+        font-size: 4vw;
+    }
+    .frequent-ask-que .row-title-text
+    {
+        font-size: 3.3vw;
+    }
+    .frequent-ask-que .row-content-text
+    {
+        font-size: 3.3vw;
+        color: red;
+    }
+}

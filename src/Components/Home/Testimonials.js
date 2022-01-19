@@ -40,14 +40,15 @@ function Testimonials(props) {
               breakpoint: 480,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows : false
               }
             }
           ]
       };
     return (
-        <div style={{margin : "3vw 16vw"}} data-aos="fade-in">
-            <h2 style={{textAlign : "center"}}>Our Happy Customer</h2>
+        <div className="testimonials-container" data-aos="fade-in">
+            <h2>Our Happy Customer</h2>
             <Slider {...settings}>
                 <CustomerReview />
                 <CustomerReview />

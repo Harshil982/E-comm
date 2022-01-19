@@ -1,0 +1,92 @@
+.video-ad
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    margin: 5vw 0vw;
+}
+.video-ad .react-player
+{
+    background-color: black;
+}
+.video-ad-text-content
+{
+    width: 50%;
+    background-color: #547665;
+    position: relative;
+}
+.video-ad-text-content div
+{
+    position: absolute;
+    top: 9vw;
+    left: 7vw;
+}
+.video-ad-text-content div h1
+{
+    width: 25vw;
+    font-size: 2.5vw;
+}
+.video-ad-text-content div p
+{
+    width: 30vw;
+}
+.video-ad .video-ad-text-content button
+{
+    color: white;
+    border: 1px solid white;
+    padding: 0.8vw;
+    background-color: #53766500;
+    width: 15vw;
+    font-size: 1.1vw;
+    margin-top: 2em;
+    transition: transform 500ms;
+}
+.video-ad .video-ad-text-content button:hover
+{
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1025px)
+{
+    .video-ad .video-ad-text-content div h1
+    {
+        font-size: 3vw;
+        width: 35vw;
+    }
+    .video-ad-text-content div
+    {
+        position: absolute;
+        top: 6vw;
+        left: 7vw;
+    }
+    .video-ad .video-ad-text-content div p
+    {
+        width: 30vw;
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-width: 426px)
+{
+    .video-ad .video-ad-text-content div h1
+    {
+        font-size: 3.3vw;
+        width: 35vw;
+    }
+    .video-ad-text-content div
+    {
+        position: absolute;
+        top: 6vw;
+        left: 7vw;
+    }
+    .video-ad .video-ad-text-content div p
+    {
+        width: 35vw;
+        font-size: 2vw;
+    }
+    .video-ad .video-ad-text-content div button
+    {
+        font-size: 1.6vw;
+        margin-top: 1vw;
+    }
+}

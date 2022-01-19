@@ -31,53 +31,7 @@
     flex-wrap: wrap;
     margin: 0vw 8vw;
 } */
-.video-ad
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    color: white;
-}
-.video-ad .react-player
-{
-    background-color: black;
-}
-.video-ad-text-content
-{
-    width: 50%;
-    background-color: #547665;
-    position: relative;
-}
-.video-ad-text-content div
-{
-    position: absolute;
-    top: 9vw;
-    left: 7vw;
-}
-.video-ad-text-content div h1
-{
-    width: 20vw;
-}
-.video-ad-text-content div p
-{
-    width: 30vw;
-}
-.video-ad .video-ad-text-content button
-{
-    color: white;
-    border: 1px solid white;
-    padding: 10px;
-    background-color: #53766500;
-    width: 15vw;
-    font-size: 1.1vw;
-    margin-top: 2em;
-    transition: transform 500ms;
-}
-.video-ad .video-ad-text-content button:hover
-{
-    transform: translateY(-4px);
-    cursor: pointer;
-}
+
 /* .home-most-popular-container .trail
 {
     width: 20vw;
@@ -87,36 +41,6 @@
     height: 22vw;
     width: 100%;
 } */
-.frequent-ask-que
-{
-    margin: 0px 20vw;
-    background-color: rgba(255, 0, 0, 0);
-}
-.slide-hero
-{
-    padding: 200px;
-    width: 100%;
-}
-.row-title
-{
-    transition: 300ms;
-}
-.row-title .row-title-text
-{
-    padding: 1px 20px;
-}
-.frequent-ask-que .faq-row-wrapper .faq-body .faq-row .row-content
-{
-    padding: 1px 20px;
-}
-.row-title:hover
-{
-    background-color: #547665;
-}
-.row-title:hover .row-title-text
-{
-    color: white;
-}
 @media only screen and (max-width: 768px)
 {
     .soln-for-all-skin
