@@ -4,6 +4,7 @@
     background-image: url('/public/BC-03.png');
     background-repeat: repeat;
     background-size: 100%;
+    overflow: hidden;
 }
 .soln-for-all-skin
 {
@@ -86,31 +87,6 @@
     height: 22vw;
     width: 100%;
 } */
-.insta
-{
-    text-align: center;
-}
-.insta img
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 4vw;
-}
-.insta-handles-container
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 1vw 13vw;
-}
-.any-Insta
-{
-    height: 250px;
-    width: 250px;
-    background-color: #547665;
-    margin-bottom: 25px;
-}
 .frequent-ask-que
 {
     margin: 0px 20vw;
@@ -140,4 +116,25 @@
 .row-title:hover .row-title-text
 {
     color: white;
+}
+@media only screen and (max-width: 768px)
+{
+    .soln-for-all-skin
+    {
+        text-align: center;
+        background-color: #A7C6B3;
+        padding: 0.7vw;
+        margin-top: -0.7vw;
+    }
+    .soln-for-all-skin h1
+    {
+        color: #354E57;
+        margin-bottom: 0vw;
+        font-size: 3.4vw;
+    }
+    .soln-for-all-skin p
+    {
+        color: white;
+        font-size: 1.8vw;
+    }
 }

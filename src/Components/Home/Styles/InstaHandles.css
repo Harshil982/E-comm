@@ -1,0 +1,25 @@
+.insta
+{
+    text-align: center;
+}
+.insta img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 4vw;
+}
+.insta-handles-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1vw 13vw;
+}
+.any-Insta
+{
+    height: 17vw;
+    width: 17vw;
+    background-color: #547665;
+    margin-bottom: 25px;
+}

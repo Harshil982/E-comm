@@ -81,3 +81,21 @@
         width: 42vw;
     }
 }
+@media only screen and (max-width: 768px)
+{
+    .home-main-poster .home-main-poster-text-content p
+    {
+        font-size: 1.5vw;
+    }
+    .home-main-poster .home-main-poster-text-content button
+    {
+        font-size: 1.3vw;
+    }
+}
+@media only screen and (max-width: 350px)
+{
+    .home-main-poster .home-main-poster-text-content p
+    {
+        font-size: 1.7vw;
+    }
+}

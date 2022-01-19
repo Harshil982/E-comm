@@ -31,8 +31,8 @@ function Testimonials(props) {
               breakpoint: 768,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2,
+                slidesToScroll: 1,
+                initialSlide: 1,
                 centerMode : false
               }
             },

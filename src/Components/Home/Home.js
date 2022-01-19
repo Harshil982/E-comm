@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 import './Styles/home.css'
 import Img2 from './../../require-images/Clean products that deliver better solutions-05.png'
-import InstaIMG from './../../require-images/logo-instagram.png'
 import Faq from 'react-faq-component'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import ReactPlayer from 'react-player';
-import Card from '../Card';
+// import Card from '../Card';
 import AdvertisePoster from '../Advertise_poster';
 import Footer from '../Footer';
 import Testimonials from './Testimonials';
 import HomeMainPoster from './HomeMainPoster';
 import MostPopular from './MostPopular';
 import TopRated from './TopRated';
+import InstaHandles from './InstaHandles';
 // import {Link} from 'react-router-dom'
 
 function Home(props) {
@@ -62,33 +62,6 @@ function Home(props) {
         // arrowColor: "red",
     };
 
-    const cardData = [
-        {
-            item: "Vitamin C Night Serum",
-            ingrediants: "All Natural Ingrediants",
-            Price: 24.99,
-            discount: 18
-        },
-        {
-            item: "Hyaluronic Acid",
-            ingrediants: "All Natural Ingrediants",
-            Price: 24.99,
-            discount: 18
-        },
-        {
-            item: "Sun Damage & Dark Circle Corrector",
-            ingrediants: "All Natural Ingrediants",
-            Price: 24.99,
-            discount: 18
-        },
-        {
-            item: "Sunburn Ointment",
-            ingrediants: "All Natural Ingrediants",
-            Price: 24.99,
-            discount: 18
-        }
-    ]
-    const arrayR = [1, 2, 3, 4, 5, 6, 7, 8]
     const config = {
         animate: true,
         // arrowIcon: "+",
@@ -105,16 +78,7 @@ function Home(props) {
                 <MostPopular />
                 <AdvertisePoster image={Img2} />
                 <TopRated />
-                <div className="insta">
-                    <img src={InstaIMG} alt="insta" data-aos="fade-left" />
-                    <h3 data-aos="zoom-in">Connect With Instagram Account</h3>
-                </div>
-                <div className="insta-handles-container" data-aos="fade-up">
-                    {arrayR.map((i, ind) => (
-                        <div key={ind} className="any-Insta">
-                        </div>
-                    ))}
-                </div>
+                <InstaHandles />
                 <Testimonials />
                 <div className="frequent-ask-que">
                     <h2 style={{ textAlign: "center" }} data-aos="fade-left">Frequently Asked Questions</h2>

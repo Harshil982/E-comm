@@ -27,3 +27,59 @@
     font-size: 1.17vw;
     font-weight: 600;
 }
+@media only screen and (max-width: 1024px)
+{
+    .home-top-rated-container .trail h3
+    {
+        font-size: 1.6vw;
+    }
+    .home-top-rated-container .trail p
+    {
+        font-size: 1.3vw;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .top-rated p
+    {
+        font-size: 2vw;
+    }
+    .home-top-rated-container .trail h3
+    {
+        font-size: 2vw;
+    }
+    .home-top-rated-container .trail
+    {
+        width: 40vw;
+    }
+}
+@media only screen and (max-width: 425px)
+{
+    .home-top-rated-container .trail
+    {
+        width: 90vw;
+    }
+    .home-top-rated-container .trail img
+    {
+        height: 40vw;
+    }
+    .home-top-rated-container .trail h3
+    {
+        font-size: 3.4vw;
+    }
+    .home-top-rated-container .trail p
+    {
+        font-size: 2.5vw;
+    }
+    .home-top-rated-container .trail .new
+    {
+        font-size: 2.5vw;
+        padding: 1.6vw;
+        top: 2vw;
+        left: 2vw;
+    }
+    .top-rated p
+    {
+        font-size: 3vw;
+    }
+}
