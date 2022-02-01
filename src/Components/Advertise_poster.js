@@ -35,9 +35,6 @@ const AdvertisePoster = (props) => {
                 </div>
                 <img src={props.image} className="ad-image" alt="Natural product" />
             </div>
-            <br/>
-            <br/>
-            <br/>
         </>
     )
 }

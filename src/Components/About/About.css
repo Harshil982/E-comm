@@ -1,0 +1,88 @@
+.back-image {
+  background-image: url("./BC-03.png");
+}
+
+.margin-our {
+  margin-top: 5rem;
+}
+
+.pad-our{
+  padding: 0 7rem;
+}
+
+.color-1 {
+  color: #547665;
+}
+
+.back-org {
+  background-color: #547665;
+}
+
+.back-clean {
+  background-color: #354e57;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.height-img {
+  height: 45em;
+}
+
+.height-p {
+  height: 43em;
+}
+
+.border-button {
+  border: 1px solid #fff;
+}
+
+.margin-insta {
+  margin-top: 6rem;
+}
+
+.about-image2-3 .Poster-container:nth-child(1){
+  flex-direction: row-reverse !important;
+}
+
+.insta-handles-about-page
+{
+  padding-top: 4vw;
+}
+
+.about-image2-3 .Poster-container{
+  margin-bottom: 0px ;
+  margin-top: 0px ;
+}
+/* media queries for responsive design*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 360px) {
+  .height-p {
+    margin: 4rem 0;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 600px) { 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}

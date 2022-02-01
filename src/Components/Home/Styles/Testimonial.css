@@ -6,11 +6,11 @@
 {
     text-align: center;
 }
-.slick-track
+.testimonials-container .slick-track
 {
     padding-top: 7vw;
 }
-.slick-slide
+.testimonials-container .slick-slide
 {
     transform: scale(0.7,0.7);
     transition: all 1500ms;
@@ -33,12 +33,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-prev {
+.testimonials-container .slick-prev {
     left: -45px;
 }
 @media only screen and (max-width: 768px)
 {
-    .slick-track
+    .testimonials-container .slick-track
     {
         padding-top: 10vw;
     }

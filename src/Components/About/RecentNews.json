@@ -1,0 +1,22 @@
+[
+    {
+        "imgPath" : "/Recent news - 3.png",
+        "blogCardTitle" : "Lorem ipsum dolor sit1",
+        "blogCardContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Cumque, alias modi a sit fuga tempore, quo possimus voluptas."
+    },
+    {
+        "imgPath" : "/Recent news - 4.png",
+        "blogCardTitle" : "Lorem ipsum dolor sit2",
+        "blogCardContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Cumque, alias modi a sit fuga tempore, quo possimus voluptas."
+    },
+    {
+        "imgPath" : "/Recent news - 2.png",
+        "blogCardTitle" : "Lorem ipsum dolor sit3",
+        "blogCardContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Cumque, alias modi a sit fuga tempore, quo possimus voluptas."
+    },
+    {
+        "imgPath" : "/Recent news - 1.png",
+        "blogCardTitle" : "Lorem ipsum dolor sit4",
+        "blogCardContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Cumque, alias modi a sit fuga tempore, quo possimus voluptas."
+    }
+]

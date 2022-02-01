@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../Card';
 import './Styles/MostPopular.css'
 
-function TopRated(props) {
+function MostPopular(props) {
     const cardData = [
         {
             item: "Vitamin C Night Serum",
@@ -31,7 +31,7 @@ function TopRated(props) {
     ]
     return (
         <>
-            <div className="most-popular">
+            <div className="most-popular" data-aos="fade-in">
                 <p>Most Popular</p>
                 <p>Shop all Products</p>
             </div>
@@ -44,4 +44,4 @@ function TopRated(props) {
     );
 }
 
-export default TopRated;
+export default MostPopular;

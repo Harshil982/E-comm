@@ -12,19 +12,17 @@ import TopRated from './TopRated';
 import InstaHandles from './InstaHandles';
 import FAQ from './FAQ';
 import VideoAd from './VideoAd';
-// import {Link} from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Home(props) {
     useEffect(() => {
-        window.scrollTo(0, 0)
+        // window.scrollTo(0, 0)
         document.title = "Home"
         Aos.init({
             duration: 1400,
             offset: 100,
         })
     })
-
-
     return (
         <>
             <div className="home-div">
@@ -37,10 +35,37 @@ function Home(props) {
                 <AdvertisePoster image={Img2} />
                 <TopRated />
                 <VideoAd />
-                <InstaHandles />
+                <InstaHandles dataCheck = "hello"/>
                 <Testimonials />
                 <FAQ />
+                <div className="company-info-container">
+                    <div className="company-info first-company-info-card">
+                        <div>
+                            <p>General inquiries</p>
+                            <a href="mailto:rajputharshilsinh10@gmail.com">info@organicproducts.com</a>
+                        </div>
+                        <div>
+                            <p>Press &amp; Media</p>
+                            <a href="mailto:rajputharshilsinh10@gmail.com">info@organicproducts.com</a>
+                        </div>
+                        <div>
+                            <p>Returns</p>
+                            <a href="mailto:rajputharshilsinh10@gmail.com">info@organicproducts.com</a>
+                        </div>
+                    </div>
+                    <div className="company-info">
+                        <div>
+                            <p>Sooth Brand Corporate Headquarters</p>
+                        </div>
+                        <div>
+                            <p>4380 XXXXXXXXXX 300</p>
+                            <p>XXXX,XXX 80237</p>
+                            <p>Monday - Friday 9am - 4:30pm</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div className="divider"></div>
             <Footer />
         </>
     );

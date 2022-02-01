@@ -1,8 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Gilda+Display);
 
-html {
-  background: radial-gradient(#000, #111);
-  color: white;
+.wave-top
+{
+  position: fixed;
+  top: 0px;
+}
+.wave
+{
+  position: fixed;
+  bottom: 0px;
+}
+
+.not-found-page {
+  color: black;
   overflow: hidden;
   height: 100%;
   user-select: none;
