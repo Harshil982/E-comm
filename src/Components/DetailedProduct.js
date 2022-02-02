@@ -81,7 +81,7 @@ function DetailedProduct(props) {
         return (
             <div className="collapse-details">
                 <p><b>{props.data}</b></p>
-                <p>&#10133;</p>
+                <p className="plus-sign">&#10133;</p>
             </div>
         )
     }
@@ -132,7 +132,8 @@ function DetailedProduct(props) {
                         </div>
                     </div>
                 </div>
-                <h2 style={{ textAlign: "center", color: "#547675", fontWeight: "600", margin: "5vw" }}>Related Products</h2>
+                {/* style={{ textAlign: "center", color: "#547675", fontWeight: "600", margin: "5vw" }} */}
+                <h2 className="related-other-products">Related Products</h2>
                 <div className="home-top-rated-container">
                     <Card data={cardData} />
                     <Card data={cardData} />

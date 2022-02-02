@@ -118,6 +118,10 @@
     color: brown;
     font-size: 1.2vw;
 }
+.plus-sign
+{
+    margin-top: -0.3vw;
+}
 .product-name-price-data .short-product-details
 {
     margin: 1.2vw 0vw;
@@ -198,6 +202,13 @@
 .detailed-related-product-container img
 {
     height: 23vw;
+}
+.related-other-products
+{
+    text-align: center;
+    color: #547665;
+    font-weight: 600;
+    margin: 12vw 0vw 1.5vw 0vw;
 }
 @media only screen and (max-width: 768px)
 {
