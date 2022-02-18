@@ -1,101 +1,101 @@
 [
     {
-        "item": "Cream1",
+        "item": "Sun Cream",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21"
     },
     {
-        "item": "Cream2",
+        "item": "Face Cream",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "99"
     },
     {
-        "item": "Cream3",
+        "item": "Hair Serum",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "10"
     },
     {
-        "item": "Cream4",
+        "item": "Eye Drop",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "50"
     },
     {
-        "item": "Cream5",
+        "item": "Ear Drop",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "79"
     },
     {
-        "item": "Cream6",
+        "item": "Hair Jel",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "45"
     },
     {
-        "item": "Cream7",
+        "item": "Body Lotion",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "86"
     }, {
-        "item": "Cream8",
+        "item": "Hair Oil",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, {
-        "item": "Cream9",
+        "item": "Face Mask",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, {
-        "item": "Cream10",
+        "item": "Facewash",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, {
-        "item": "Cream11",
+        "item": "Face Scrub",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, {
-        "item": "Cream12",
+        "item": "Charcol Face Mask",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, {
-        "item": "Cream13",
+        "item": "Charcol Face Scrub",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, {
-        "item": "Cream14",
+        "item": "GodLike",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     }, 
     {
-        "item": "Cream15",
+        "item": "soul",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     },
     {
-        "item": "Cream16",
+        "item": "TX",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     },
     {
-        "item": "Cream17",
+        "item": "TSM",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"
     },
     {
-        "item": "Cream18",
+        "item": "SG",
         "discount": 15,
         "ingrediants": "All natural",
         "Price": "21.99"

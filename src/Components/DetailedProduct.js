@@ -6,21 +6,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import Collapsible from 'react-collapsible'
 import StarRatings from 'react-star-ratings'
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 function DetailedProduct(props) {
-    const location = useLocation()
-    console.log(location);
-
+    // const location = useLocation()
+    // console.log(location);
+    const [quantity, setQuantity] = useState(1)
     const Images = ['/Recent news - 1.png', '/Recent news - 2.png', '/Recent news - 3.png', '/Recent news - 4.png']
 
     useEffect(() => {
         console.log(props);
         document.title = "Detailed Product"
-    })
+        window.scrollTo(0,0);
+        setQuantity(1);
+    },[props])
 
     const settings = {
         dots: true,
@@ -50,7 +53,6 @@ function DetailedProduct(props) {
     };
 
     //setting state value for quantity
-    const [quantity, setQuantity] = useState(1)
 
     // handling quantity increment
     const handleIncrement = () => {
@@ -71,12 +73,33 @@ function DetailedProduct(props) {
         }
     }
     const cardData =
-    {
-        item: "All Organic Vitiligo Balm",
-        discount: 15,
-        ingrediants: "All organic Ingrediants",
-        Price: 15.99,
-    }
+        [
+            {
+                item: "All Organic Vitiligo Balm1",
+                discount: 20,
+                ingrediants: "All organic Ingrediants",
+                Price: 15.99,
+            },
+            {
+                item: "All Organic Vitiligo Balm2",
+                discount: 19,
+                ingrediants: "All organic Ingrediants",
+                Price: 15.99,
+            },
+            {
+                item: "All Organic Vitiligo Balm3",
+                discount: 18,
+                ingrediants: "All organic Ingrediants",
+                Price: 15.99,
+            },
+            {
+                item: "All Organic Vitiligo Balm4",
+                discount: 17,
+                ingrediants: "All organic Ingrediants",
+                Price: 15.99,
+            }
+        ]
+    const { item, discount, Price } = props.location.state;
     const Details = (props) => {
         return (
             <div className="collapse-details">
@@ -87,6 +110,7 @@ function DetailedProduct(props) {
     }
     return (
         <>
+        <Link to="/wishlist">Chalo</Link>
             <div className="detailed-product-container">
                 <div className="detailed-product-description">
                     <div className="product-pictures">
@@ -98,8 +122,8 @@ function DetailedProduct(props) {
                         </Slider>
                     </div>
                     <div className="product-name-price-data">
-                        <p className="detailed-product-discount">15% off</p>
-                        <h3>All Organic Vitiligo Balm.</h3>
+                        <p className="detailed-product-discount">{discount}% off</p>
+                        <h3>{item}</h3>
                         <section>
                             <StarRatings
                                 rating={4}
@@ -108,17 +132,19 @@ function DetailedProduct(props) {
                                 name='rating'
                                 starDimension="false"
                                 starSpacing="0.1vw"
-                            /><p className="customer-reviews">56 reviews</p></section>
-                        <p className="product-prices">$18.99 <span style={{ textDecoration: "line-through" }}>$24.99</span></p>
+                            />
+                            <p className="customer-reviews">56 reviews</p>
+                        </section>
+                        <p className="product-prices">${Price} <span style={{ textDecoration: "line-through" }}>$24.99</span></p>
                         <div className="short-product-details">
                             <p>Cleaner,all natural,skin-care solutions</p>
                             <p>Our Vitiligo balm works for all skin types. Clean ingrediants keep you confident that you're using only the best solutuions for your skin.</p>
                         </div>
-                        <Collapsible trigger={<Details data="Details"/>}>
+                        <Collapsible trigger={<Details data="Details" />}>
                             <p>It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components. ... React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple</p>
                         </Collapsible>
                         <div className="verticle-divide"></div>
-                        <Collapsible trigger={<Details data="Shipping &amp; Handling"/>}>
+                        <Collapsible trigger={<Details data="Shipping &amp; Handling" />}>
                             <p>It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components. ... React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple</p>
                         </Collapsible>
                         <p className="quantity">Quantity</p>
@@ -135,10 +161,9 @@ function DetailedProduct(props) {
                 {/* style={{ textAlign: "center", color: "#547675", fontWeight: "600", margin: "5vw" }} */}
                 <h2 className="related-other-products">Related Products</h2>
                 <div className="home-top-rated-container">
-                    <Card data={cardData} />
-                    <Card data={cardData} />
-                    <Card data={cardData} />
-                    <Card data={cardData} />
+                    {cardData.map((item,index) => (
+                        <Card data={item} key={index}/>
+                    ))}
                 </div>
             </div>
             <div className="divider"></div>

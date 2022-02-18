@@ -1,0 +1,55 @@
+.search-page
+{
+    width: 100%; 
+    min-height: 50vw;
+    position: relative;
+    background-image: url('./../../../require-images//BC-03.png');
+}
+.cancel-search
+{
+    font-size: 2vw;
+    position: absolute;
+    right: 9vw;
+    top: 2vw;
+}
+.cancel-search
+{
+    cursor: pointer;
+}
+.search-input-container
+{
+    width: 50%;
+    margin: 0vw 8.3vw;
+    padding-top: 6vw;
+    margin-bottom: 3vw;
+    border-bottom: 1px solid black;
+    font-size: 1.4vw;
+}
+.serach-input
+{
+    border: none;
+    background: transparent;
+    padding-left: 1.6vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    width: 45vw;
+}
+.serach-input:focus
+{
+    outline: none;
+}
+.serach-input:focus .serach-input::placeholder
+{
+    transform: scale(0.7,0.7);
+}
+.display-flex-css
+{
+    margin: 2vw 5vw;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.display-flex-css .trail
+{
+    margin-left: 2.2vw;
+}

@@ -4,10 +4,10 @@ import img1 from "./ABOUT PAGE HEADER-02.png";
 import img2 from "./ABOUT US 01.png";
 import img3 from "./ABOUT US 02.png";
 // import img4 from "./#547665.png";
-import img5 from "./Recent news - 3.png";
-import img6 from "./Recent news - 4.png";
-import img7 from "./Recent news - 2.png";
-import img8 from "./Recent news - 1.png";
+// import img5 from "./Recent news - 3.png";
+// import img6 from "./Recent news - 4.png";
+// import img7 from "./Recent news - 2.png";
+// import img8 from "./Recent news - 1.png";
 import RecentNewsData from './RecentNews.json'
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

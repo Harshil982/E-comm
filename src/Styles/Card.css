@@ -27,6 +27,31 @@
     margin-top: 1vh;
     position: relative;
 }
+.wishlist-btn
+{
+    color: dodgerblue;
+    /* background-color: white; */
+    background: transparent;
+    /* height: 3.2vw;
+    width: 3.2vw; */
+    border-radius: 50%;
+    font-size: 2.3vw;
+    border: none;
+    /* border: 3px solid rgba(0, 140, 255, 0.349); */
+    position: absolute;
+    right: 1vw;
+    top: 0.6vw;
+    transform: scale(0,0);
+    transition: all 500ms;
+}
+.wishlist-btn-active
+{
+    color: red;
+}
+.trail:hover .wishlist-btn
+{
+    transform: scale(1,1);
+}
 .discount
 {
     position: absolute;
@@ -59,7 +84,12 @@
 .trail img
 {
     width: 100%;
+    height: 20vw;
 }
+/* .trail:hover .wishlist-btn
+{
+    display: block;
+} */
 .trail h3
 {
     font-size: 1.6vw;
@@ -72,7 +102,7 @@
 {
     margin-top: 0px;
 }
-.trail button
+.trail .add-cart-btn
 {
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
@@ -81,10 +111,19 @@
     font-size: 1.1vw;
     transition: transform 400ms;
 }
-.trail button:hover
+.trail .add-cart-btn:hover
 {
     transform: translateY(-4px);
     cursor: pointer;
+}
+.trail a
+{
+    text-decoration: none;
+    color: black;
+}
+.trail a:hover
+{
+    color: black;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)
@@ -101,7 +140,7 @@
     {
         width: 27vw;
     }
-    .trail button
+    .trail .add-cart-btn
     {
         width: 100%;
         background-color: rgba(255, 255, 255, 0);
@@ -112,7 +151,7 @@
         display: flex;
         justify-content: center;
     }
-    .trail button:hover
+    .trail .add-cart-btn:hover
     {
         transform: translateY(-4px);
         cursor: pointer;
@@ -140,7 +179,7 @@
     {
         margin: 2px 0px 5px 10%;
     }
-    .trail button
+    .trail .add-cart-btn
     {
         width: 100%;
         background-color: rgba(255, 255, 255, 0);
@@ -173,7 +212,7 @@
         margin: 2px 0px 15px 18vw;
         align-self: center;
     } */
-    .trail button
+    .trail .add-cart-btn
     {
         width: 100%;
         background-color: rgba(255, 255, 255, 0);
